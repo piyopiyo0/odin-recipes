@@ -3,6 +3,18 @@ body {
     text-align: center;
     border: 2px solid black;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: beige;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+p {
+    padding: 20px 30px;
+    text-align: justify;
 }
 
 img {
@@ -16,10 +28,16 @@ h2 {
 
 ul {
     list-style-type: none;
-    text-align: justify;
+    text-align: center;
+    padding: 20px 30px;
+    margin-left: -10px;
+    margin-right: -10px;
+    border: 1px solid blue;
+    background-color: floralwhite;
 }
 
 ol {
     text-align: justify;
-    padding: 20px;
+    padding: 20px 30px;
 }
+
